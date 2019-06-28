@@ -1,3 +1,8 @@
+matrix
+
+
+
+
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -26,9 +31,9 @@ int main()
     }
         
     }
-    for(int i=0;i<c;i++) //row will become column
+    for(int i=0;i<c;i++) //row will be less than column
     {
-    for(int j=0;j<r;j++) //column will become row
+    for(int j=0;j<r;j++) //column will be less than row
     {
      
       fileoutput<<t[i][j]<<" ";
